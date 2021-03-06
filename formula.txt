@@ -1,0 +1,17 @@
+how to find lowest common denominator of infinity numbers 
+we check every step if a one or more numbers of the list is divisible by
+prime number if yes we divide the number by the prime and check again 
+if no number is divisible by prime we try next prime until all the numbers are
+equal to 1 then we multiply all the prime numbers that we divided before 
+and got the lowest common denominator 
+
+example:
+numbers are 12,8,9
+12,8,9|2
+6,4, 9|2
+3,2, 9|3
+1,2, 3|2
+1,1, 3|3
+1,1, 1
+--------
+2*2*3*2*3=72
